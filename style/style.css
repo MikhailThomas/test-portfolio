@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.rounded-circle {
+  width: 33%;
+  /* makes perfect square */
+  aspect-ratio: 1;
+  object-fit: cover;
+  /* make image move in circle */
+  object-position: 10px 10px;
+  /* makes perfect circle */
+  border-radius: 50%;
+}
+/* make button circle */
+.circle{
+  width: 5px !important;
+  aspect-ratio: 1 !important;
+  height: auto !important;
+  border-radius: 50% !important;
+}
+/* projetcs */
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.projects-container img{
+    max-height: 400px;
+    max-width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
